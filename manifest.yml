@@ -1,0 +1,7 @@
+---
+applications:
+  - name: vj-nodejs-sample
+    memory: 128M
+    timeout: 180
+    buildpack: nodejs_buildpack
+    command: node app.js
